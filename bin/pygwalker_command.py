@@ -13,7 +13,7 @@ from pygwalker.services.kanaries_cli_login import kanaries_login
 
 parser = argparse.ArgumentParser(
     prog="pygwalker",
-    description='pygwalker: turn your data into an interactive UI for data exploration and visualization'
+    description='pygwalker: turn your data into an interactive UI for data exploration and visualization.'
 )
 subparsers = parser.add_subparsers(dest='command')
 
